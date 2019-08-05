@@ -14,7 +14,7 @@ class CashRegister
 
   def apply_discount
     mytotal = self.total = self.total * ((100 - self.discount) / 100.0)
-    "After the discount, the total comes to #{mytotal.to_i}."
+    "After the discount, the total comes to $#{mytotal.to_i}."
 
   end
 end
