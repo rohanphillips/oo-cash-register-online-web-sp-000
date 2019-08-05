@@ -1,4 +1,4 @@
-class CashRegister 
+class CashRegister
   @total
   def initialize
     @total = 0
