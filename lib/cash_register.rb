@@ -21,5 +21,9 @@ class CashRegister
     mytotal > 0 ? "After the discount, the total comes to $#{mytotal.to_i}." : "There is no discount to apply."
   end
 
+  def void_last_transaction
+
+  end
+
 
 end
